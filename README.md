@@ -1,2 +1,5 @@
-# template-tool
-A template for NDCLab software tools. Fork to get started!
+# template-tool-title
+Description of the tool 
+
+## Usage
+Describe how to use this tool

@@ -7,7 +7,6 @@
 * [Containers](#Containers)
 * [Git-Workflow](#Git-Workflow)  
 * [CI-test](#CI-test)  
-* [Output-Data](#Output-Data)
 * [Reminders](#Reminders)  
 
 
@@ -41,27 +40,22 @@ Development is driven by the [feature branch workflow](https://www.atlassian.com
 Subsequently, branches follow this convention:
 
 `main`
-- No test features
-- 100% stable and usable by any lab members 
+- 100% stable and usable by any lab members.
 - *No direct commits*
 
 `->dev`
-- Up to date development branch with properly tested/reviewed features 
+- Up to date development branch with properly tested/reviewed features. 
 - *No direct commits*
 
 `-->dev-feature-[featureName]`
-- Ongoing development and testing of feature to be pull requested into `dev` 
-- *No direct commits*
+- Ongoing development and testing of feature to be pull requested into `dev`.
 
 `--->dev-feature-[featureName]-[yourName]`
-- *Only* branch available for personal development, must be branched off of `-->dev-feature-[featureName]` branch
-- Merged into `-->dev-feature-[featureName]` after pull-request (code review)
+- *Only* branch available for personal development, must be branched off of `-->dev-feature-[featureName]` branch.
+- Merged into `-->dev-feature-[featureName]` after pull-request.
 
 
 ## CI-test
-
-
-## Example-Data
 
 
 ## Reminders

@@ -1,5 +1,5 @@
 # template-tool
-A template of NDC software tools that comes with default issue templates, empty packages & driver modules for scripts, and default containers. To get started simply click "use this tool" in the top right corner and modify documentation and code as needed. 
+A template of NDC software tools that comes with default issue templates, empty packages & driver modules for scripts, and default containers. To get started simply click "use this template" in the top right corner and modify documentation and code as needed. 
 
 Check out [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) to drive development! 
 

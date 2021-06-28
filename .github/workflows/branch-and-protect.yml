@@ -1,7 +1,9 @@
 name: 
   Branch-and-protect
 on: 
-  generate
+  create:
+    branches:
+      - main
 jobs:
   Set-Protection-Main:
     runs-on: ubuntu-latest

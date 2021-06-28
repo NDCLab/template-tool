@@ -1,7 +1,7 @@
 # template-tool
 A template of NDC software tools that comes with default issue templates, empty packages & driver modules for scripts, and default containers. To get started simply click "use this template" in the top right corner and modify documentation and code as needed. 
 
-Development principles and default directory structure is described in [CONTRIBUTING.md](#CONTRIBUTING.md)/ Check out [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) to drive software development! 
+Development principles and default directory structure is described in [CONTRIBUTING.md](#CONTRIBUTING.md) Check out [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) to drive software development! 
 
 The following outlines the default sections for the project README. Delete this [template-tool](#template-tool) section and fill in subsequent sections as needed.
 

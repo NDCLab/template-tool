@@ -1,9 +1,9 @@
 name: 
-  Branch-and-protect
+  protect-branches
 on: 
   create:
     branches:
-      - main
+      - dev
 jobs:
   Set-Protection-Main:
     runs-on: ubuntu-latest
@@ -11,13 +11,6 @@ jobs:
       - run: echo "Main branch protection rules triggered by ${{ github.event_name }} event."
       - run: gh api --method PUT repos/:owner/:repo/branches/main/protection --input ../configs/config-branch-rules.yml
       - run: echo "Main branch protection rules created."
-  Create-Dev:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Dev branch creation triggered by ${{ github.event_name }} event."
-      - run: git checkout -b dev
-      - run: git push origin dev
-      - run: echo "Dev branch created."
   Set-Protection-Dev:
     needs: Create-Dev
     runs-on: ubuntu-latest

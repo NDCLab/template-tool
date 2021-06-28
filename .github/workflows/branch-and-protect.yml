@@ -1,7 +1,7 @@
 name: 
   Branch-and-protect
 on: 
-  fork
+  generate
 jobs:
   Set-Protection-Main:
     runs-on: ubuntu-latest

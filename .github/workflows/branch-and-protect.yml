@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Main branch protection rules triggered by ${{ github.event_name }} event."
-      - run: gh api --method PUT repos/:owner/:repo/branches/main/protection --input config-branch-rules.yml
+      - run: gh api --method PUT repos/:owner/:repo/branches/main/protection --input ../configs/config-branch-rules.yml
       - run: echo "Main branch protection rules created."
   Create-Dev:
     runs-on: ubuntu-latest
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Setting up protection rules for dev branch."
-      - run: gh api --method PUT repos/:owner/:repo/branches/dev/protection --input config-branch-rules.yml
+      - run: gh api --method PUT repos/:owner/:repo/branches/dev/protection --input ../configs/config-branch-rules.yml
       - run: echo "Dev branch protection rules created."
   Complete-Message: 
     needs: [Set-Protection-Main, Create-Dev, Set-Protection-Dev]

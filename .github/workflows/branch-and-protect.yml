@@ -1,0 +1,30 @@
+name: 
+  Branch-and-protect
+on: 
+  fork
+jobs:
+  Set-Protection-Main:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Main branch protection rules triggered by ${{ github.event_name }} event."
+      - run: gh api --method PUT repos/:owner/:repo/branches/main/protection --input config-branch-rules.yml
+      - run: echo "Main branch protection rules created."
+  Create-Dev:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Dev branch creation triggered by ${{ github.event_name }} event."
+      - run: git checkout -b dev
+      - run: git push origin dev
+      - run: echo "Dev branch created."
+  Set-Protection-Dev:
+    needs: Create-Dev
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Setting up protection rules for dev branch."
+      - run: gh api --method PUT repos/:owner/:repo/branches/dev/protection --input config-branch-rules.yml
+      - run: echo "Dev branch protection rules created."
+  Complete-Message: 
+    needs: [Set-Protection-Main, Create-Dev, Set-Protection-Dev]
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Repository set-up complete. Happy development 🎉!"

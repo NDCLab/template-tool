@@ -20,11 +20,22 @@ baseEEG
 ├── run.py
 ├── scripts
 |    ├──__init__.py
-|    ├──package1
-|    |    ├──__init__.py
-|    ├──package2
-|    |    ├──__init__.py
+├── container
+|    ├──Dockerfile.template 
+|    ├──environment.yml
+|    ├──README.md 
+├── .github 
 ```
+
+## Scripts
+The `scripts` directory is where Python modules will be pulled from. This ensures that modules are neatly divided according to responsibility, which helps with parallel development and debugging. 
+
+More info on creating packages [here](https://docs.python.org/3/tutorial/modules.html#packages). 
+
+## Container
+To ensure reproducability of results and software, a default docker file is included with this template repository. The respective [README.md](#container/README.md) contains a comprehensive guide on how to get started with containerization (special thanks to [Jonhas](https://github.com/Jonhas))!
+
+A step-by-step guide to getting started also included in the following [video](https://www.youtube.com/watch?v=oO8n3y23b6M). 
 
 ### Function-Standards 
 
@@ -54,6 +65,9 @@ Subsequently, branches follow this convention:
 - *Only* branch available for personal development, must be branched off of `-->dev-feature-[featureName]` branch.
 - Merged into `-->dev-feature-[featureName]` after pull-request.
 
+To ensure branch cleanliness, be sure to enable automatic deletion of branches! To do this hover over to "Settings" and scroll down to the "Automatically delete head branches" option and select the checkbox. 
+
+![image](https://user-images.githubusercontent.com/26397102/123699167-f1b0f980-d82c-11eb-9d6e-b9c24d952401.png)
 
 ## CI-test
 

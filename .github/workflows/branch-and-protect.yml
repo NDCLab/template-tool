@@ -6,7 +6,8 @@ on:
       - dev
 jobs:
   Set-Protection-Main:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latesta
+    uses: actions/checkout@v2
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     steps:
@@ -38,6 +39,7 @@ jobs:
       - run: echo "Main branch protection rules created."
   Set-Protection-Dev:
     runs-on: ubuntu-latest
+    uses: actions/checkout@v2
     env:
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
     steps:

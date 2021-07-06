@@ -1,17 +1,38 @@
-# template-tool
-A template of NDC software tools that comes with default issue templates, empty packages & driver modules for scripts, and default containers. To get started simply click "use this template" in the top right corner and modify documentation and code as needed. 
+# [project name]
 
-Development principles and default directory structure is described in [CONTRIBUTING.md](#CONTRIBUTING.md) Check out [The Mythical Man Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month) to drive software development! 
+## Project Goal
+Replace this text with a pithy description of the goal of the project.
 
-The following outlines the default sections for the project README. Delete this [template-tool](#template-tool) section and fill in subsequent sections as needed.
 
-# Project-title
-Give a succint description of the tool here.
-> "User-friendly collections of scripts to preprocess EEG data."
+## Background & Design
+Replace this text with a slightly longer (but still only max 250 words) description of the project background and its design. 
+
+
+## Roadmap
+Insert graphic of planned project releases. [This site](https://app.diagrams.net/) allows you to build a graphic that is connected to GitHub, so that changes you make are treated as GitHub commits.
+
 
 ## Usage
-Describe how to use this tool.
-> "Simply type `python3 run.py` to begin analysis"
+Replace this text with a description of how a new user should install and use the tool.
 
-## Description
-Give an in-depth, outward facing description of the tool here. 
+:point_right: When you first set up this readme file, the description above might say something like "Watch for our first release!"
+
+## Work in Development
+This `main` branch contains completed releases for this project. For all work-in-progress, please switch over to the `dev` branches.
+
+:point_right: Keep the "Work in Development" text above as the default NDCLab "blurb" to help visitors navigate the repo. But delete this note before publishing the readme file.
+
+
+## Contributors
+| Name | Role |
+| ---  | ---  |
+| insert team member | add team member's role |
+| insert team member | add team member's role |
+| insert team member | add team member's role |
+
+Learn more about us [here](www.ndclab.com/people).
+
+## Contributing
+If you are interested in contributing, please read our `CONTRIBUTING.md` file.
+
+:point_right: Keep the "Contributing" text above as the default NDCLab "blurb" to help visitors navigate the repo. But delete this note before publishing the readme file.

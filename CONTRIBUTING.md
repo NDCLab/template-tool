@@ -36,3 +36,4 @@ To ensure reproducability of results and software, a default docker file is incl
 A step-by-step guide to getting started also included in the following [video](https://www.youtube.com/watch?v=oO8n3y23b6M). 
 
 ## Workflow
+Workflow for both internal and external lab members outlined in the [NDClab contributing wiki doc](https://ndclab.github.io/wiki/docs/contributing.html). 

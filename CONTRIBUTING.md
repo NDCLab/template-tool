@@ -10,7 +10,7 @@ Please note our general guidelines for contributing to NDCLab projects [here](ht
 * [Workflow](#Workflow)  
 
 ## Roadmap
-Please see the roadmap available on the [README.md](https://github.com/NDCLab/template-tool/blob/main/README.md) file of this repository.
+Please see the roadmap available on the [README.md](https://github.com/NDCLab/template-tool/blob/main/container/README.md) file of this repository.
 
 ## Directory Structure
 ```yml

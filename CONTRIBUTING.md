@@ -15,6 +15,8 @@ Please see the roadmap available on the [README.md](https://github.com/NDCLab/te
 :point_right: Keep the "Roadmap" text above but update the link to the `readme` for your repo. And, of course, delete this note before publishing the contributing file.
 
 ## Directory Structure
+:point_right: Update this section as appropriate for your repo, then delete this note before publishing.
+
 ```yml
 project-name
 ├── run.py

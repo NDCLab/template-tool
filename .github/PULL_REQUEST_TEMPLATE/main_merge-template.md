@@ -10,14 +10,14 @@ assignees: ''
 ## Release Description 
 A bulleted list of general features included in this release: 
 
+* feature-0
 * feature-1
-* feature-2
 
 ## Next Release Requirements 
 A bulleted list of enhancements & bug-fixes necessary for the next release: 
 
+* planned-feature-0
 * planned-feature-1
-* planned-feature-2
 
 ## Checklist
 Mark off each item if complete. 

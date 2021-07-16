@@ -8,13 +8,19 @@ assignees: ''
 ---
 
 ## Changes made
-* a succint bulleted list of the changes made along with any new behavior 
+A succint bulleted list of the changes made along with any new behavior:
 
-## Issues Resolved
-* a bulleted list of the issues resolved with the corresponding issue number if available 
+* change-0 and behavior-change-0
+
+## Issues/Requests Resolved
+A bulleted list of the issues or requests resolved with the corresponding number if available:
+
+* issue #000
 
 ## Next Actions 
-If applicable, what new issues does this PR create? For example, a test-request or a request-of-documentation. 
+If applicable, what new issues does this PR create?
+
+* next-action-0
 
 ## Notes
 What additional information should a reviewer know? 

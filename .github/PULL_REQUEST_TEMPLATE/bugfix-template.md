@@ -8,13 +8,19 @@ assignees: ''
 ---
 
 ## Changes made
-* a succint bulleted list of the changes made along with any new behavior 
+A succint bulleted list of the changes made along with any new behavior:
+
+* change-0 and behavior-change-0
 
 ## Bugs Resolved
-* a bulleted list of the issues resolved with the corresponding issue number if available 
+A bulleted list of the issues resolved with the corresponding issue number if available:
+
+* issue #000
 
 ## Test Cases Resolved
-If applicable, which test cases are now resolved?
+If applicable, which test cases are now resolved:
+
+* test-case-0
 
 ## Screenshots 
 If necessary, provide screenshots of new behavior to describe PR. 

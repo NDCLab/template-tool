@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ## Changes made
-A succint bulleted list of the changes made along with any new behavior:
+A succinct bulleted list of the changes made along with any new behavior:
 
 * change-0 and behavior-change-0
 

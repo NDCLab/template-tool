@@ -8,11 +8,11 @@ assignees: ''
 ---
 
 ## Changes made
-A succinct bulleted list of the changes made along with any new behavior: 
+A succinct, bulleted list of the changes made, along with any new behavior: 
  
 * change-0 and behavior-change-0
 ## Bugs Resolved
-A bulleted list of the issues resolved with the corresponding issue number if available:
+A bulleted list of the issues resolved with the corresponding issue number, if available:
 
 * issue #000
 
